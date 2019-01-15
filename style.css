@@ -1,0 +1,86 @@
+
+body, html{
+	width:100%;
+	height:100%;
+}
+
+body{
+	font-family: 'Montserrat', sans-serif;
+}
+
+hr { /*line bar*/
+  max-width: 70px;	/*the width of the line bar*/ 	
+  border-width: 3px; 	/*the thickness of the line bar*/
+  border-color: #F05F44; 
+}
+
+.faded { /* Forgotten cit text*/
+  color: rgba(255, 255, 255, 0.8); 
+}
+
+/*This code is from Solutions*/
+header.FC{
+	background-position: center;
+	background-image: url(fc_bckgrnd.JPG);
+	background-size: cover;
+	height: 100%;
+}
+
+
+
+header.startup hr {
+  margin-top: 200px;
+  margin-bottom: 30px; 
+}
+
+header.startup h1 {
+  font-size: 2rem; 
+}
+
+.btn {
+  font-weight: 700;
+  text-transform: uppercase;
+  border-radius: 300px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.btn-xl {
+  padding: 1rem 1rem; 
+}
+
+.btn-primary {
+  background-color: #F05F44;
+  border-color: #F05F44; }
+
+.btn-primary:hover {
+  background-color: #ee4b08;
+  border-color: #ee4b08;
+  border-width: 5px;
+  cursor: pointer;
+}
+
+/*.btn-danger{
+	background-color: orange;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translateX(-50%);
+
+}
+.btn-danger:hover{
+	background-color: black
+}
+
+
+p{
+	font-size: 3em;
+	text-align: center;
+	font-family: fantasy;
+	width: 400px;
+	position: absolute;
+	top: 10%;
+	left: 25%;
+	transform: translateX(-50%);
+	box-shadow: 4px 4px 5px #888888;
+	/*margin-top: 10px;*/
+}*/
